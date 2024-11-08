@@ -10,16 +10,13 @@ In this project, we explored the use of transfer learning to classify images of 
 Compiling the model just once with 2 different output layers for each classification task.
 
 ### 2. Sequential Learning :
-Compiling and training the model for Categories Task first and then doing the same for Landmarks Task using the same model (same weights) and swapping out the output layer.
+- Compiling and training the model for Categories Task first and then doing the same for Landmarks Task using the same model (same weights) and swapping out the output layer.
 
-### 3. Sequential Learning :
-Compiling and training the model for Landmarks Task first and then doing the same for Landmarks Task using the same model (same weights) and swapping out the output layer.
+- Compiling and training the model for Landmarks Task first and then doing the same for Landmarks Task using the same model (same weights) and swapping out the output layer.
 
-### 4. Sequential Learning :
-Compiling and training the model for Categories Task first and using the output of the first model as an additional feature for the Landmarks Task.
+- Compiling and training the model for Categories Task first and using the output of the first model as an additional feature for the Landmarks Task.
 
-### 5. Sequential Learning :
-Compiling and training the model for Landmarks Task first and using the output of the first model as an additional feature for the Categories Task.
+- Compiling and training the model for Landmarks Task first and using the output of the first model as an additional feature for the Categories Task.
 
 ## Model Selection
 
